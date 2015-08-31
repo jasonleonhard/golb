@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+
+  root 'users#index'
+  # root 'user#index'
+
   resources :comments
   resources :posts
   resources :posts

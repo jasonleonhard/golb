@@ -16,9 +16,9 @@
       <tr>
         <td><%= comment.com %></td>
         <td><%= comment.body %></td>
-        <td><%= link_to 'Show', comment %></td>
-        <td><%= link_to 'Edit', edit_comment_path(comment) %></td>
-        <td><%= link_to 'Destroy', comment, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td class="btn btn-default btn-xs"><%= link_to 'Show', comment %></td>
+        <td class="btn btn-default btn-xs"><%= link_to 'Edit', edit_comment_path(comment) %></td>
+        <td class="btn btn-default btn-xs"><%= link_to 'Destroy', comment, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
