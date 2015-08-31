@@ -3,4 +3,4 @@ Rails App Demonstrating
   Posts
   Comments
 
-![ExtendMe icon](https://github.com/un5t0ppab13/golb/Screenshot.png)
+![golb icon](https://github.com/un5t0ppab13/golb/Screenshot.png)
