@@ -1,0 +1,86 @@
+Run options: --seed 6463
+
+# Running:
+
+..E......E...........
+
+Finished in 0.526842s, 39.8602 runs/s, 62.6374 assertions/s.
+
+  1) Error:
+PostsControllerTest#test_should_destroy_post:
+ActiveRecord::StatementInvalid: SQLite3::SQLException: no such column: comments.post_id: SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?
+    app/controllers/posts_controller.rb:57:in `destroy'
+    test/controllers/posts_controller_test.rb:44:in `block (2 levels) in <class:PostsControllerTest>'
+    test/controllers/posts_controller_test.rb:43:in `block in <class:PostsControllerTest>'
+
+
+  2) Error:
+UsersControllerTest#test_should_destroy_user:
+ActiveRecord::StatementInvalid: SQLite3::SQLException: no such column: posts.user_id: SELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?
+    app/controllers/users_controller.rb:57:in `destroy'
+    test/controllers/users_controller_test.rb:44:in `block (2 levels) in <class:UsersControllerTest>'
+    test/controllers/users_controller_test.rb:43:in `block in <class:UsersControllerTest>'
+
+21 runs, 33 assertions, 0 failures, 2 errors, 0 skips
++----------------------+-------+-------+---------+---------+-----+-------+
+| Name                 | Lines |   LOC | Classes | Methods | M/C | LOC/M |
++----------------------+-------+-------+---------+---------+-----+-------+
+| Controllers          |   227 |   153 |       4 |      27 |   6 |     3 |
+| Helpers              |     8 |     8 |       0 |       0 |   0 |     0 |
+| Models               |    11 |    10 |       3 |       0 |   0 |     0 |
+| Mailers              |     0 |     0 |       0 |       0 |   0 |     0 |
+| Javascripts          |    25 |     0 |       0 |       0 |   0 |     0 |
+| Libraries            |     0 |     0 |       0 |       0 |   0 |     0 |
+| Controller tests     |   147 |   117 |       3 |       0 |   0 |     0 |
+| Helper tests         |     0 |     0 |       0 |       0 |   0 |     0 |
+| Model tests          |    21 |     9 |       3 |       0 |   0 |     0 |
+| Mailer tests         |     0 |     0 |       0 |       0 |   0 |     0 |
+| Integration tests    |     0 |     0 |       0 |       0 |   0 |     0 |
++----------------------+-------+-------+---------+---------+-----+-------+
+| Total                |   439 |   297 |      13 |      27 |   2 |     9 |
++----------------------+-------+-------+---------+---------+-----+-------+
+  Code LOC: 171     Test LOC: 126     Code to Test Ratio: 1:0.7
+
+Run options: --seed 32662
+
+# Running:
+
+....E..........E.....
+
+Finished in 0.406768s, 51.6265 runs/s, 81.1274 assertions/s.
+
+  1) Error:
+UsersControllerTest#test_should_destroy_user:
+ActiveRecord::StatementInvalid: SQLite3::SQLException: no such column: posts.user_id: SELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?
+    app/controllers/users_controller.rb:57:in `destroy'
+    test/controllers/users_controller_test.rb:44:in `block (2 levels) in <class:UsersControllerTest>'
+    test/controllers/users_controller_test.rb:43:in `block in <class:UsersControllerTest>'
+
+
+  2) Error:
+PostsControllerTest#test_should_destroy_post:
+ActiveRecord::StatementInvalid: SQLite3::SQLException: no such column: comments.post_id: SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?
+    app/controllers/posts_controller.rb:57:in `destroy'
+    test/controllers/posts_controller_test.rb:44:in `block (2 levels) in <class:PostsControllerTest>'
+    test/controllers/posts_controller_test.rb:43:in `block in <class:PostsControllerTest>'
+
+21 runs, 33 assertions, 0 failures, 2 errors, 0 skips
++----------------------+-------+-------+---------+---------+-----+-------+
+| Name                 | Lines |   LOC | Classes | Methods | M/C | LOC/M |
++----------------------+-------+-------+---------+---------+-----+-------+
+| Controllers          |   227 |   153 |       4 |      27 |   6 |     3 |
+| Helpers              |     8 |     8 |       0 |       0 |   0 |     0 |
+| Models               |    11 |    10 |       3 |       0 |   0 |     0 |
+| Mailers              |     0 |     0 |       0 |       0 |   0 |     0 |
+| Javascripts          |    25 |     0 |       0 |       0 |   0 |     0 |
+| Libraries            |     0 |     0 |       0 |       0 |   0 |     0 |
+| Controller tests     |   147 |   117 |       3 |       0 |   0 |     0 |
+| Helper tests         |     0 |     0 |       0 |       0 |   0 |     0 |
+| Model tests          |    21 |     9 |       3 |       0 |   0 |     0 |
+| Mailer tests         |     0 |     0 |       0 |       0 |   0 |     0 |
+| Integration tests    |     0 |     0 |       0 |       0 |   0 |     0 |
++----------------------+-------+-------+---------+---------+-----+-------+
+| Total                |   439 |   297 |      13 |      27 |   2 |     9 |
++----------------------+-------+-------+---------+---------+-----+-------+
+  Code LOC: 171     Test LOC: 126     Code to Test Ratio: 1:0.7
+
