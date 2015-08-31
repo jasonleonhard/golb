@@ -58,6 +58,8 @@ group :development, :test do
   # cmd-shift-p View...
     # can also affect xml .svgs simliar to html
     # css, js....
+  gem 'faker'
+
   # SUBTRACTIONS
 
 end
