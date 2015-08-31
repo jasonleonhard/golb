@@ -3,4 +3,4 @@ Rails App Demonstrating
   Posts
   Comments
 
-![golb icon](https://github.com/un5t0ppab13/golb/Screenshot.png)
+![golb icon](https://raw.githubusercontent.com/un5t0ppab13/golb/master/app/assets/images/Screenshot.png)
