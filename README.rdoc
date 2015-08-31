@@ -3,6 +3,6 @@ Rails App Demonstrating
   Posts
   Comments
 
-![golb icon](https://github.com/un5t0ppab13/blob/golb/master/app/assets/images/Screenshot.png)
+![golb icon](https://github.com/un5t0ppab13/golb/blob/master/app/assets/images/Screenshot.png)
 
 ![bling icon](https://github.com/un5t0ppab13/bling/blob/master/app/assets/images/rough.png)
