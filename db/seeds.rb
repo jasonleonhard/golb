@@ -5,17 +5,14 @@
 require 'faker'
 # require 'populator'
 
-
-# works
+# works?
 111.times do
-  user = User.create( 
-    :first_name => Faker::Internet.user_name, #=> "Legacy Creative Director",
-    :last_name => Faker::Internet.user_name,
-    :age => Faker::Number.between(14,75)
+  comment = Comment.create( 
+    :com => Faker::Name.title, #=> "Legacy Creative Director",
+    :body => Faker::Lorem.sentence(11) #=> Corporis iusto vel reiciendis ut tenetur qui eos officiis rerum at consectetur.  
   )
-  puts user.inspect
+  puts comment.inspect
 end
-
 
 # works
 111.times do
@@ -26,19 +23,15 @@ end
   puts post.inspect
 end
 
-
-# works?
+# works
 111.times do
-  comment = Comment.create( 
-    :com => Faker::Name.title, #=> "Legacy Creative Director",
-    :body => Faker::Lorem.sentence(11) #=> Corporis iusto vel reiciendis ut tenetur qui eos officiis rerum at consectetur.  
+  user = User.create( 
+    :first_name => Faker::Internet.user_name, #=> "Legacy Creative Director",
+    :last_name => Faker::Internet.user_name,
+    :age => Faker::Number.between(14,75)
   )
-  puts comment.inspect
+  puts user.inspect
 end
-
-
-
-
 
 # rake db:reset db:migrate db:seed
 # rake db:reset db:migrate db:seed --trace
